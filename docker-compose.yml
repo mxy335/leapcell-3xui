@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   3x-ui:
-    image: ghcr.io/mhsanaei/leap3x-ui:latest
+    image: ghcr.io/mhsanaei/3x-ui:latest
     container_name: 3x-ui
     ports:
       - "2053:2053"    # Web管理界面端口
